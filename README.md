@@ -46,6 +46,9 @@ Port: 443
 ## Enhancements
 
 <TODO: A short description of how to improve the project in the future>
+- Configure monitoring for the service 
+- Create actionable alerts based on monitoring 
+- Make project cloud-agnostic 
 
 ## Demo 
 
