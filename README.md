@@ -24,8 +24,7 @@ Python flask machine learning project with continuous integration in github acti
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
-# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/app-svc.png)
-
+# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/appazure.png)
 
 * Project cloned into Azure Cloud Shell
 # ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/azure-cli.png)
@@ -37,21 +36,27 @@ Python flask machine learning project with continuous integration in github acti
 # ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/make-all.png)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/azurepipeline-run.png)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
+# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/azuredeployment.png)
+
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
+
 
 ```bash
 udacity@Azure:~$ ./make_predict_azure_app.sh
 Port: 443
 {"prediction":[20.35373177134412]}
 ```
+# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/make-predict.png)
+
 
 * Output of streamed log files from deployed application
+# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/app-svc.png)
 
-> 
 
 ## Enhancements
 
