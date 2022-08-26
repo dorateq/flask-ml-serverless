@@ -25,16 +25,38 @@ Python flask machine learning project with continuous integration in github acti
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 
-Log into Azure account and connect to azure cli ``` ```
-Create python virtual environment ``` ```
-Login to github and clone repo to azure cli ``` ```
-Edit url in app and Makefile
-Run make commands  ``` ```
-Check azure console
-Test app url with curl
-Connect azure devops to github through service connection 
-
-Run app service ``` ```
+- Log into Azure account and connect to azure cli ``` ```
+- Create and activate python virtual environment 
+    ```
+    python -m venv flaskly
+    source flaskly/bin/activate
+    cd flaskly
+    ```
+- Login to github and clone repo to virtual environment ``` ```
+- Edit url in app and Makefile
+- Run make commands  
+    ```
+    make install
+    make lint
+    make test
+    make predict-azure
+    make azwebapp 
+    ```
+- Check azure console for app service 
+- Test app url with curl
+    ``` 
+    curl  https://flask-ml-jon.azurewebsites.net
+    ```
+- Connect azure devops to github through service connection  
+- Make changes to project and push to github
+- Open A PR, review and merge
+- Go to github actions and watch the CI pipelines run 
+- Go to Azure devops and watch CD pipeline run 
+- Test app url with curl to verify as before 
+    ```
+    make predict-azure
+    make app-service
+    ```
 
 * Project running on Azure App Service
 # ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/appazure.png)
