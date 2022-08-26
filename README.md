@@ -9,6 +9,8 @@ Python flask machine learning project with continuous integration in github acti
 <TODO: Project Plan
 
 * A link to a Trello board for the project https://trello.com/b/yjgQo8xb/ci-cd
+# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/trello.png)
+
 * A link to a spreadsheet that includes the original and final project plan>
 * Original link https://docs.google.com/spreadsheets/d/15syXTrJy0DK5rXZF3aPtGzn3ckKxnIzjjDlv0vf2j0M/edit?usp=sharing
 * Final link 
