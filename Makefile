@@ -12,13 +12,14 @@ azwebapp:
 	az webapp up -n flask-ml-jon
 
 predict-azure: 
-	make_predict_azure_app.sh
+	sh make_predict_azure_app.sh
 
 predict:
-	make_prediction.sh
+	sh make_prediction.sh
 	
-app-service:
-	curl https://flask-ml-jon.azurewebsites.net
+app-svc:
+	curl https://flask-ml-jon.azurewebsites.net 
+	echo
 
 all: install lint test
 

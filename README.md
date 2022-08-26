@@ -39,8 +39,9 @@ Python flask machine learning project with continuous integration in github acti
     make install
     make lint
     make test
-    make predict-azure
     make azwebapp 
+    make predict-azure
+    make app-svc 
     ```
 - Check azure console for app service 
 - Test app url with curl
@@ -48,9 +49,9 @@ Python flask machine learning project with continuous integration in github acti
     curl  https://flask-ml-jon.azurewebsites.net
     ```
 - Connect azure devops to github through service connection  
-- Make changes to project and push to github
-- Open A PR, review and merge
-- Go to github actions and watch the CI pipelines run 
+- Make changes in local new branch to project and push to github
+- Go to github actions and run a workflow for CI pipeline run 
+- Open A PR, review and merge to main branch
 - Go to Azure devops and watch CD pipeline run 
 - Test app url with curl to verify as before 
     ```
