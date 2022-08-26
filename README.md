@@ -27,32 +27,42 @@ Python flask machine learning project with continuous integration in github acti
 ## Pre-requisites
 - Azure account, basic knowledge of azure cli and console
 - Github account, basic knowledge of azure devops, github and git
-- Basic knowledge of make tool
+- Basic knowledge of   tool
 - Basic knowledge of python, flask 
 
 ## Steps
-- Log into Azure account and connect to azure cli ``` ```
+- Log into Azure account and connect to azure cli 
+    ```
+    az version
+    az help 
+    ```
 - Create and activate python virtual environment 
     ```
     python -m venv flaskly
     source flaskly/bin/activate
     cd flaskly
     ```
-- Login to github and clone repo to virtual environment ``` ```
-- Edit url in app and Makefile
-- Run make commands  
+- Login to github fork this repo and clone repo to virtual environment `
+    `` 
+    git clone https://github.com/dorateq/flask-ml-serverless.git
+    cd flask-ml-serverless
     ```
-    make install
-    make lint
-    make test
-    make azwebapp 
-    make predict-azure
-    make app-svc 
+- Edit url in app and Makefile example ""
+- To build the app Run   commands  
     ```
-- Check azure console for app service 
-- Test app url with curl
+      install
+      lint
+      test
+    ```
+- To setup App service in azure account run command and Check azure console for app service 
+    ```
+      azwebapp 
+    ```
+
+- Check prediction for flask ML and the REST URL. Does anything work?? 
     ``` 
-    curl  https://flask-ml-jon.azurewebsites.net
+    make predict-azure
+    make   app-svc 
     ```
 - Connect azure devops to github through service connection  
 - Make changes in local new branch to project and push to github
@@ -61,8 +71,8 @@ Python flask machine learning project with continuous integration in github acti
 - Go to Azure devops and watch CD pipeline run 
 - Test app url with curl to verify as before 
     ```
-    make predict-azure
-    make app-service
+      predict-azure
+      app-service
     ```
 
 * Project running on Azure App Service
@@ -71,8 +81,8 @@ Python flask machine learning project with continuous integration in github acti
 * Project cloned into Azure Cloud Shell
 # ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/flask-azurecli.png)
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
-# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/make-all.png)
+* Passing tests that are displayed after running the `  all` command from the `Makefile`
+# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/ -all.png)
 
 * Output of a test run
 # ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/gh-actions.png)
@@ -93,7 +103,7 @@ udacity@Azure:~$ ./make_predict_azure_app.sh
 Port: 443
 {"prediction":[20.35373177134412]}
 ```
-# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/make-predict.png)
+# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/ -predict.png)
 
 
 * Output of streamed log files from deployed application
