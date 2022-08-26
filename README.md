@@ -116,9 +116,10 @@ Port: 443
 - Configure monitoring for the service 
 - Create actionable alerts based on monitoring 
 - Make project cloud-agnostic 
+- Use Github pages for documentation and keep README lean
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
-
+<TODO: Add link Screencast>
+https://vimeo.com/743558808
 
