@@ -24,7 +24,13 @@ Python flask machine learning project with continuous integration in github acti
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
+## Pre-requisites
+- Azure account, basic knowledge of azure cli and console
+- Github account, basic knowledge of azure devops, github and git
+- Basic knowledge of make tool
+- Basic knowledge of python, flask 
 
+## Steps
 - Log into Azure account and connect to azure cli ``` ```
 - Create and activate python virtual environment 
     ```
