@@ -47,16 +47,16 @@ Python flask machine learning project with continuous integration in github acti
     git clone https://github.com/dorateq/flask-ml-serverless.git
     cd flask-ml-serverless
     ```
-- Edit url in app and Makefile example ""
+- Edit url in app and Makefile example "flask-ml"
 - To build the app Run   commands  
     ```
-      install
-      lint
-      test
+      make install
+      make lint
+      make test
     ```
 - To setup App service in azure account run command and Check azure console for app service 
     ```
-      azwebapp 
+      make azwebapp 
     ```
 
 - Check prediction for flask ML and the REST URL. Does anything work?? 
@@ -71,8 +71,8 @@ Python flask machine learning project with continuous integration in github acti
 - Go to Azure devops and watch CD pipeline run 
 - Test app url with curl to verify as before 
     ```
-      predict-azure
-      app-service
+    make   predict-azure
+    make app-service
     ```
 
 * Project running on Azure App Service
