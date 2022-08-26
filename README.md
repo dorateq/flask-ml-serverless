@@ -6,7 +6,7 @@
 Python flask machine learning project with continuous integration in github actions,pytest, pylint and continuous deployment im azure pipelines.
 
 ## Project Plan
-<TODO: Project Plan
+
 
 * A link to a Trello board for the project https://trello.com/b/yjgQo8xb/ci-cd
 # ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/trello.png)
@@ -16,14 +16,25 @@ Python flask machine learning project with continuous integration in github acti
 * Final link 
 
 ## Instructions
-
-<TODO:  
+  
 * Architectural Diagram (Shows how key parts of the system work)>
-# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/ci.png)
-# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/architecture.png)
+# continuous integration ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/ci.png)
+# continuous deployment ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/architecture.png)
 
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+
+
+Log into Azure account and connect to azure cli ``` ```
+Create python virtual environment ``` ```
+Login to github and clone repo to azure cli ``` ```
+Edit url in app and Makefile
+Run make commands  ``` ```
+Check azure console
+Test app url with curl
+Connect azure devops to github through service connection 
+
+Run app service ``` ```
 
 * Project running on Azure App Service
 # ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/appazure.png)
