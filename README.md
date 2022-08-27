@@ -113,7 +113,7 @@ udacity@Azure:~$ ./make_predict_azure_app.sh
 Port: 443
 {"prediction":[20.35373177134412]}
 ```
-# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/azure-predict.png)
+# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/make-predict.png)
 
 
 * Output of streamed log files from deployed application
