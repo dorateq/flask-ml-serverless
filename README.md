@@ -88,7 +88,7 @@ Python flask machine learning project with continuous integration in github acti
 # ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/flask-azurecli.png)
 
 * Passing tests that are displayed after running the `  all` command from the `Makefile`
-# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/ -all.png)
+# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/make-all.png)
 
 * Output of a test run
 # ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/gh-actions.png)
@@ -113,7 +113,7 @@ udacity@Azure:~$ ./make_predict_azure_app.sh
 Port: 443
 {"prediction":[20.35373177134412]}
 ```
-# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/ -predict.png)
+# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/azure-predict.png)
 
 
 * Output of streamed log files from deployed application
