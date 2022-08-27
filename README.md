@@ -5,6 +5,8 @@
 
 Python flask machine learning project with continuous integration in github actions,pytest, pylint and continuous deployment im azure pipelines.
 
+[![Makefile CI](https://github.com/dorateq/flask-ml-serverless/actions/workflows/makefile.yml/badge.svg?branch=main)](https://github.com/dorateq/flask-ml-serverless/actions/workflows/makefile.yml)
+
 ## Project Plan
 
 
