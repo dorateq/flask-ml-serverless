@@ -20,7 +20,7 @@ jobs:
         python-version: 3.6.15
       
     - name: Install dependencies
-      run: make istall
+      run: make install
       
     - name: Lint
       run: make lint
