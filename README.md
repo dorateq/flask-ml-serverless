@@ -15,7 +15,7 @@ Python flask machine learning project with continuous integration in github acti
 
 * A link to a spreadsheet that includes the original and final project plan>
 * Original link https://docs.google.com/spreadsheets/d/1Bbvhw7yLDbKwJuximwFbkGi2EjyF1zCFsqFvuIYkY2k/copy
-* Final link https://docs.google.com/spreadsheets/d/15syXTrJy0DK5rXZF3aPtGzn3ckKxnIzjjDlv0vf2j0M/edit?usp=sharing
+* Final link https://github.com/dorateq/flask-ml-serverless/blob/main/projecttracker.xlsx
 
 ## Instructions
   
