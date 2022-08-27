@@ -66,6 +66,10 @@ Python flask machine learning project with continuous integration in github acti
     make predict-azure
     make   app-svc 
     ```
+- Load test the app using Locust 
+    ``` 
+        make load
+    ```
 - Connect azure devops to github through service connection  
 - Make changes in local new branch to project and push to github
 - Go to github actions and run a workflow for CI pipeline run 
@@ -88,6 +92,10 @@ Python flask machine learning project with continuous integration in github acti
 
 * Output of a test run
 # ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/gh-actions.png)
+
+* Output of Locust Load test test run
+# ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/locust10.png)
+
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 # ![alt text](https://github.com/dorateq/flask-ml-serverless/blob/main/azurepipeline-run.png)

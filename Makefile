@@ -1,6 +1,7 @@
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
+		pip install locust
 	
 test:
 	python -m pytest -vv test_hello.py
@@ -20,6 +21,8 @@ predict:
 app-svc:
 	curl https://flask-ml-jon.azurewebsites.net 
 	echo
+load:
+	python -m locust --web-port 9000
 
 all: install lint test
 
